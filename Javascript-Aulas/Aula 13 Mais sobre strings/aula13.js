@@ -56,7 +56,12 @@ console.log(umaString.substring(umaString.length -5, umaString.length -1));  // 
 console.log(umaString.split(' ', 5)); // reparte o texto com base na sua especificação
 
 
-*/
+
 let umaString = "O rato roeu a roupa do rei de roma."; 
 console.log(umaString.toUpperCase());
 console.log(umaString.toLowerCase());
+
+*/
+
+let umaString = "O rato roeu a roupa do rei de roma."; 
+console.log(umaString.split(` `)); // reparte o texto com base na sua especificação
