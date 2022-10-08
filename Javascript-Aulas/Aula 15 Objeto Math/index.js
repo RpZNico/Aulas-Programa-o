@@ -1,9 +1,10 @@
-// Aqui você pode dividar um número por 0 e não da erro e retorna como verdadeiro 
+// Aqui você pode dividar um número por 0 e não da erro e retorna como verdadeiro - true boolean
 
 console.log(100 / 0.000000000000000000000000);
 
 // let num1 = 25;
-// console.log(num1 ** 0.5);
+// console.log(num1 ** 0.5); - Raiz quadrada
+// Math.sqrt Faz a raiz quadrada do número
 
 // let num2 = Math.floor(num1);  - Arredonda pra baixo o número
 // let num2 = Math.ceil(num1); - Arredonda para baixo o número
