@@ -54,6 +54,10 @@ form button:hover {
     background: var(--primary-color-darker);
 }
 
+div {
+    display: inline-block;
+}
+
 
 .container {
     max-width: 890px;
@@ -63,24 +67,18 @@ form button:hover {
     border-radius: 15px;
 }
 
-div {
-    display: inline-block;
-    align-items: center;
-}
 
 .grid {
     display: grid;
     grid-template-rows: 1fr;
 
-
 }
 
 .grid-a {
     color: red;
-    align-items: left;
 }
 
 .grid-b {
     color: blue;
-    align-items: right;
+    margin-left: 200px;
 }
