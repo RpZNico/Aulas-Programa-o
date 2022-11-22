@@ -21,14 +21,14 @@ console.log(raiz(25));
 
 
 
-/* function soma(x = 1, y = 1) {
+ function soma(x = 1, y = 1) {
     const resultado = x + y;
     console.log('Olá mundo!');
     return resultado   // a baixo disso, nada será executado
 }
 
 
-const resultado = soma (4, 2)
+/* const resultado = soma (4, 2)
 console.log(resultado) */
 
 

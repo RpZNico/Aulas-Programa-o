@@ -1,0 +1,3 @@
+function recebeNumero (num){
+    
+}
