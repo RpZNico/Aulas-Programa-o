@@ -40,14 +40,25 @@ element {
 
     /*<rgb()> values */ 
     color: rgb(34, 12, 64, 0.6) /* 0-255 */
-    color: rgba(34, 12, 64, 0.6)
+    color: rgba(34, 12, 64, 0.6);
 
 
     HSL → Hue - Saturation - Lightness
     /* <hsl() values */>
-    color: hsl(180, 100%, 50%, 60%)
-    color: hsla(180, 100%, 50%, 60%)
+    color: hsl(180, 100%, 50%, 60%);
+    color: hsla(180, 100%, 50%, 60%);
+
+
+    /* Global */
+    color: inherit;
+    color: initial;
+    color: unset;
 
 }
+```
 
+
+##  Referência
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 
