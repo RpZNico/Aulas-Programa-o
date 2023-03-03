@@ -86,3 +86,62 @@ p {
 ```
 
 ---------------------------------------------------------------------------
+
+## text-decoration
+
+* Aparencia decorativa de um texto
+* line: underline | overline | line-through
+    * podemos aplicar masi de 1 valor
+* Style: wavy | dotted | double | dashed | solid
+* color: `<color>` values
+
+```css
+p {
+    text-decoration: underline; /* shorthand */
+
+}
+```
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+
+-----------------------------------------------------------------------
+
+## text-align
+
+* Alinhamento de um texto
+
+```css
+p {
+    text-align: center; /* left | right | center | justify */
+}
+```
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+
+-----------------------------------------------------------------------
+
+## text-shadow
+
+* Sombra aplicada a um texto
+* Permite múltiplos valores
+
+```css
+p {
+    text-shadow: 1px 1px 1px red,
+                2px 2px 1px green; /* offset-x | offset-y | blur-radius | color */
+}
+```
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+
+-----------------------------------------------------------------------
+
+## shorthand
+
+* font-style, font-variant, font-weight, font-stretch, font-size, line-height e font-family.
+
+```css
+p {
+    /* -style, -variant, -weight, -stretch, -size, -line-height, e -family. */
+    font: italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif;
+}
+```

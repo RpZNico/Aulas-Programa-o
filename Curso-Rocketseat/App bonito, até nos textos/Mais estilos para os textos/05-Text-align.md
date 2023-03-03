@@ -86,3 +86,35 @@ p {
 ```
 
 ---------------------------------------------------------------------------
+
+## text-decoration
+
+* Aparencia decorativa de um texto
+* line: underline | overline | line-through
+    * podemos aplicar masi de 1 valor
+* Style: wavy | dotted | double | dashed | solid
+* color: `<color>` values
+
+```css
+p {
+    text-decoration: underline; /* shorthand */
+
+}
+```
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+
+-----------------------------------------------------------------------
+
+## text-align
+
+* Alinhamento de um texto
+
+```css
+p {
+    text-align: center; /* left | right | center | justify */
+}
+```
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+
+-----------------------------------------------------------------------
